@@ -8,6 +8,7 @@ const HomePage = () => {
   const { isLoggedIn } = useSelector(store => ({ isLoggedIn: store.isLoggedIn }));
   return (
     <div className="container">
+      <h1>Test</h1>
       <div className="row">
         <div className="col">
           {isLoggedIn && (
